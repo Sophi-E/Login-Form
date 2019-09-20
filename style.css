@@ -1,0 +1,113 @@
+@import url('https://fonts.google.apis.com/css?family=Poppins:100,200,300,400 500')
+body, html {
+font-family: 'poppins', san-serif;
+font-size: 14px;
+color:#666;
+
+}
+body{
+background-image: url("./tech.jpg");
+height: 100%;
+background-size: cover;
+background-position: fixed;
+background-repeat: no-repeat;
+left:0;
+right:0;
+z-index:-1;
+opacity:0.95;
+filter: brightness(100%);
+}
+/*.boder{
+width: 100px; height: 100 px;
+border-style: double dashed;
+border-width: thick;
+border-color: blue;
+margin:auto;
+}*/
+
+h1 {
+  font-family: "Poppins", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  }
+  .mb-5  {
+    color: #007DFF;
+    background-color: 0000CD;
+    letter-spacing: .1em;
+	opacity: 50;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  }
+  .mb-4{
+  color: #fff;
+    background-color: 0000CD;
+    letter-spacing: .1em;
+	opacity: 50;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  }
+.login-container{
+z-index: 1;
+height: 100vh;
+width:100%;
+}
+.login-form{
+max-width: 100%;
+width: 500px;
+padding:50px;
+margin: auto;
+}
+.form-control{
+font-size: 15px;
+min-height: 20px;
+font-weight: 500;
+}
+.form-control:focus{
+border-color:0000CD;
+box-shadow:0 0 0 0.2rem rgba(114,61,190,.25);
+}
+.forgot-link{
+font-size: 13px;
+}
+.forgot-link label{
+margin-bottom: 0;
+}
+.login-form a{
+text-decoration: none;
+color:#666;
+}
+.login a:hover{
+color: 0000CD;
+}
+.btn-custom{
+background: 0000CD;
+border-color:0000CD;
+color:#fff;
+font-size: 15px;
+font-weight: 600;
+min-height: 48px;
+}
+.btn-custom: focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+background:#0000CD;
+border-color: #0000CD;
+color: #fff;
+}
+.btn-custom:focus{
+box-shadow:0 0 0 0.2rem rgba(114,61,190,.25);
+}
+#signup{
+font-color: 000000;
+}
+#password
+{
+font-color: ffffff;
+}
+
